@@ -32,7 +32,6 @@ Download the compressed source file MEpurity.tar.gz and do as follows:
     -r      Detect the CpGs annotated as SNPs. After this, a file path storing names of CpG sites.(Default:NULL)
     -v      Output progress in terms of mixing coefficient (expected) values if 1. <bool> (Default:False)
 ## Example
-    ./MEpurity -f ../test/test.txt -m ../map.txt -o ./output.txt
     tar -zxvf ../test/test.tar.gz -C ../test
     ./MEpurity -i ../test/test.txt -p ../parameters.txt -o ./output.txt
 # Output
