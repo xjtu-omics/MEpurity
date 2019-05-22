@@ -19,46 +19,24 @@ Download the compressed source file MEpurity.tar.gz and do as follows:
     Version 0.1
     ./MEpurity [options]
 ## Required parameters:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    -f:     The Illumina Infinium Human Methylation 450K (450k) input data.
-    -m:     The normal mapfile under path of this software.
-    -o:     The output file path that you would like to contain the results.
-## Optional parameters:
-    -h      Show this help message and exit.
-    -s      The number of CpG sites that you want to use in the map file. <int> (Default:80000)
-=======
     -i:     The Illumina Infinium Human Methylation 450K (450k) input data.
-    -p:     The file under the path of the software (parameters.txt) that stores the parameters about the distribution of beta values at different CpG sites in normal samples.
+    -p:     The normal mapfile under path of this software.
     -o:     The output file path that you would like to contain the results.
 ## Optional parameters:
     -h      Show this help message and exit.
     -s      The number of CpG sites that you want to use in the map file. <int> (Default:70000)
->>>>>>> 7d1da275950b6a6294c04af9a18aa76a4c296c7c
-=======
-    -i:     The Illumina Infinium Human Methylation 450K (450k) input data.
-    -p:     The file under the path of the software (parameters.txt) that stores the parameters about the distribution of beta values at different CpG sites in normal samples.
-    -o:     The output file path that you would like to contain the results.
-## Optional parameters:
-    -h      Show this help message and exit.
-    -s      The number of CpG sites that you want to use in the map file. <int> (Default:70000)
->>>>>>> MEpurity/master
     -t      The maximum iteration time of bmm algorithm. <int> (Default:10000)
     -c      The least percemtage of sites belonging to a cluster that would not be filted. <float> (Default:0.01)
     -n      The original number of clusters. <int> (Default:10)
+    -k      The threshold of z-score value. <int>(Default:20)
+    -r      Detect the CpGs annotated as SNPs. After this, a file path storing names of CpG sites.(Default:NULL)
     -v      Output progress in terms of mixing coefficient (expected) values if 1. <bool> (Default:False)
 ## Example
-<<<<<<< HEAD
-<<<<<<< HEAD
     ./MEpurity -f ../test/test.txt -m ../map.txt -o ./output.txt
-=======
     tar -zxvf ../test/test.tar.gz -C ../test
     ./MEpurity -i ../test/test.txt -p ../parameters.txt -o ./output.txt
->>>>>>> 7d1da275950b6a6294c04af9a18aa76a4c296c7c
-=======
     tar -zxvf ../test/test.tar.gz -C ../test
     ./MEpurity -i ../test/test.txt -p ../parameters.txt -o ./output.txt
->>>>>>> MEpurity/master
 # Output
 The output file contains 2 columns:
 
