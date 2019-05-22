@@ -35,8 +35,6 @@ Download the compressed source file MEpurity.tar.gz and do as follows:
     ./MEpurity -f ../test/test.txt -m ../map.txt -o ./output.txt
     tar -zxvf ../test/test.tar.gz -C ../test
     ./MEpurity -i ../test/test.txt -p ../parameters.txt -o ./output.txt
-    tar -zxvf ../test/test.tar.gz -C ../test
-    ./MEpurity -i ../test/test.txt -p ../parameters.txt -o ./output.txt
 # Output
 The output file contains 2 columns:
 
